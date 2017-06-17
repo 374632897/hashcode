@@ -1,3 +1,1 @@
-module.exports = {
-	hashcode: require("./lib/hashcode")
-};
+module.exports = require("./lib/hashcode");
