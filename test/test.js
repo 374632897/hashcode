@@ -41,7 +41,7 @@ var types =
 
 for(let type in types)
 {
-    const hash = Hashcode.value(types[type])
+    const hash = Hashcode(types[type])
 
     console.log(type, types[type], hash)
 }
